@@ -1,0 +1,78 @@
+    .profile-page {
+    padding: 2rem;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile-username {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section-title {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.table-container {
+    border: 2px solid green;
+    border-radius: 8px;
+    overflow: hidden; /* Ensures content stays within rounded corners */
+    max-height: 45vh; /* Limits height to around half screen */
+    overflow-y: auto; /* Scroll internally if content exceeds height */
+    background-color: #1a1a1a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Allows us to set specific column widths */
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #333;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: #2a2a2a;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-weight: bold;
+}
+
+/* --- Column Sizing --- */
+
+/* Table 1: My Teams (4 Columns) */
+/* Title, Members, Description (Big), Image (Big) */
+.my-teams-table th:nth-child(1), .my-teams-table td:nth-child(1) { width: 15%; }
+.my-teams-table th:nth-child(2), .my-teams-table td:nth-child(2) { width: 15%; }
+.my-teams-table th:nth-child(3), .my-teams-table td:nth-child(3) { width: 35%; }
+.my-teams-table th:nth-child(4), .my-teams-table td:nth-child(4) { width: 35%; }
+
+/* Table 2: Joined Teams (5 Columns) */
+/* Title, Members, Owner, Description (Big), Image (Big) */
+.joined-teams-table th:nth-child(1), .joined-teams-table td:nth-child(1) { width: 12%; }
+.joined-teams-table th:nth-child(2), .joined-teams-table td:nth-child(2) { width: 12%; }
+.joined-teams-table th:nth-child(3), .joined-teams-table td:nth-child(3) { width: 12%; }
+.joined-teams-table th:nth-child(4), .joined-teams-table td:nth-child(4) { width: 32%; }
+.joined-teams-table th:nth-child(5), .joined-teams-table td:nth-child(5) { width: 32%; }
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 768px) {
+    .table-container {
+        overflow-x: auto;
+    }
+    table {
+        min-width: 600px; /* Ensures table doesn't get too squished */
+    }
+}
