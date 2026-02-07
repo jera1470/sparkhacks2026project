@@ -16,16 +16,16 @@
     border-bottom: 2px solid #ccc;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
-    color: white;
+    color: rgb(37, 131, 255);
 }
 
 .table-container {
-    border: 2px solid green;
+    border: 2px solid rgb(37, 131, 255);
     border-radius: 8px;
     overflow: hidden; /* Ensures content stays within rounded corners */
     max-height: 45vh; /* Limits height to around half screen */
     overflow-y: auto; /* Scroll internally if content exceeds height */
-    background-color: #1a1a1a;
+    background-color: #ffffff;
 }
 
 table {
@@ -37,13 +37,13 @@ table {
 th, td {
     padding: 1rem;
     text-align: left;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid rgb(37, 131, 255);
     vertical-align: top;
     word-wrap: break-word;
 }
 
 th {
-    background-color: #2a2a2a;
+    background-color: #e3e3e3;
     position: sticky;
     top: 0;
     z-index: 1;
