@@ -9,7 +9,7 @@ function ProjectCard() {
       <div className="project-details">
         <img src={default2} className="project-pfp" alt="User Profile"/>
         <div>
-          <Link to="/">Project Title</Link>
+          <Link to="/projectpage">Project Title</Link>
         </div>
       </div>
       <div className="project-image">

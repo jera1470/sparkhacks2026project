@@ -1,6 +1,7 @@
 import NavBar from '../components/NavBar.jsx'
 import '../css/Home.css'
 import ProjectCard from '../components/ProjectCard.jsx'
+import {Link} from 'react-router'
 
 function Home() {
   return (
@@ -27,12 +28,9 @@ function Home() {
         <tr>
           <td>
             <div className="scroll-content">
-              <ProjectCard/>
-              <ProjectCard/>
-              <ProjectCard/>
-              <ProjectCard/>
-              <ProjectCard/>
-              <ProjectCard/>
+              <Link to="/projectpage">
+                <ProjectCard/>
+              </Link>
             </div>
           </td>
           <td>

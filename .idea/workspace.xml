@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eb23189-e0ad-401d-84ae-d87887205d83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ProjectCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/css/ProjectCard.css" afterDir="false" />
+    <list default="true" id="6eb23189-e0ad-401d-84ae-d87887205d83" name="Changes" comment="columns and projectcards made&#10;&#10;use placeholder images for now&#10;(nethack image and a default&#10;pfp image)&#10;&#10;fix navbar to appear on all&#10;pages, as well as its size">
+      <change afterPath="$PROJECT_DIR$/backend/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/css/ProjectPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProjectPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProjectCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/css/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/NavBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSX File" />
+        <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,12 +40,22 @@
     &quot;assignee&quot;: &quot;jera1470&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jera1470/sparkhacks2026project.git&quot;,
-    &quot;accountId&quot;: &quot;02b65e7c-61d3-4d81-bb70-0ee408f030d6&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jera1470/sparkhacks2026project.git",
+    "accountId": "02b65e7c-61d3-4d81-bb70-0ee408f030d6"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "jera1470",
+    "repository": "sparkhacks2026project"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -98,7 +114,7 @@
       <workItem from="1770437037923" duration="897000" />
       <workItem from="1770437957783" duration="8582000" />
       <workItem from="1770447668693" duration="4581000" />
-      <workItem from="1770478624973" duration="5754000" />
+      <workItem from="1770478624973" duration="14612000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -132,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770445596562</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="columns and projectcards made&#10;&#10;use placeholder images for now&#10;(nethack image and a default&#10;pfp image)&#10;&#10;fix navbar to appear on all&#10;pages, as well as its size">
+      <option name="closed" value="true" />
+      <created>1770484675680</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770484675680</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +166,7 @@
     <MESSAGE value="delete #href &quot;comment&quot;" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="navbar/link implementation&#10;&#10;used routes to start making connections&#10;to pages that will be made in the future&#10;(such as home, profile, content, etc.)&#10;&#10;added four css files to each respective&#10;file added (app, home, main, and navbar)" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar/link implementation&#10;&#10;used routes to start making connections&#10;to pages that will be made in the future&#10;(such as home, profile, content, etc.)&#10;&#10;added four css files to each respective&#10;file added (app, home, main, and navbar)" />
+    <MESSAGE value="columns and projectcards made&#10;&#10;use placeholder images for now&#10;(nethack image and a default&#10;pfp image)&#10;&#10;fix navbar to appear on all&#10;pages, as well as its size" />
+    <option name="LAST_COMMIT_MESSAGE" value="columns and projectcards made&#10;&#10;use placeholder images for now&#10;(nethack image and a default&#10;pfp image)&#10;&#10;fix navbar to appear on all&#10;pages, as well as its size" />
   </component>
 </project>
