@@ -1,7 +1,9 @@
+import NavBar from '../components/NavBar.jsx'
+
 function Home() {
   return (
-    <div>
-      yo
+    <div className="home">
+
     </div>
   )
 }
