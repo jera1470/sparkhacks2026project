@@ -30,8 +30,8 @@ function NavBar() {
         </form>
       </div>
       <div className="navbar-items">
-        <Link to="/" className="navbar-items">
-          Profile (N/A)
+        <Link to="/profilepage" className="navbar-items">
+          Profile
         </Link>
       </div>
     </nav>
