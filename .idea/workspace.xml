@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eb23189-e0ad-401d-84ae-d87887205d83" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/css/Home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/css/NavBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/App.css" afterDir="false" />
+    <list default="true" id="6eb23189-e0ad-401d-84ae-d87887205d83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ProjectCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/css/ProjectCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/css/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/NavBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/home/jera1470/WebstormProjects/sparkhacks2026project",
+    "last_opened_file_path": "/home/jera1470/WebstormProjects/sparkhacks2026project/frontend/src/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +70,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/assets" />
       <recent name="$PROJECT_DIR$/frontend/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -96,7 +96,9 @@
       <workItem from="1770436828440" duration="40000" />
       <workItem from="1770436879738" duration="16000" />
       <workItem from="1770437037923" duration="897000" />
-      <workItem from="1770437957783" duration="6447000" />
+      <workItem from="1770437957783" duration="8582000" />
+      <workItem from="1770447668693" duration="4581000" />
+      <workItem from="1770478624973" duration="5754000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -122,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770438030866</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="navbar/link implementation&#10;&#10;used routes to start making connections&#10;to pages that will be made in the future&#10;(such as home, profile, content, etc.)&#10;&#10;added four css files to each respective&#10;file added (app, home, main, and navbar)">
+      <option name="closed" value="true" />
+      <created>1770445596562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770445596562</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete #href &quot;comment&quot;" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="navbar/link implementation&#10;&#10;used routes to start making connections&#10;to pages that will be made in the future&#10;(such as home, profile, content, etc.)&#10;&#10;added four css files to each respective&#10;file added (app, home, main, and navbar)" />
+    <option name="LAST_COMMIT_MESSAGE" value="navbar/link implementation&#10;&#10;used routes to start making connections&#10;to pages that will be made in the future&#10;(such as home, profile, content, etc.)&#10;&#10;added four css files to each respective&#10;file added (app, home, main, and navbar)" />
   </component>
 </project>

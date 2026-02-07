@@ -2,18 +2,32 @@
     background-color: #000000;
     padding: 1rem 2rem;
     display: flex;
+    height: 8vh;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.navbar-brand {
+    flex: 0 0 auto;
+    z-index: 2;
+    font-size: 1.5vw;
+    float: right;
+}
+
+.navbar-right {
+    margin-left: auto;
+    flex: 0 0 auto;
+    z-index: 2;
+}
+
 .search-form {
-    max-width: 600px;
-    margin: 0 auto 2rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-57%);
+    width: min(140vw, 700px);
     display: flex;
-    gap: 1rem;
-    padding: 0 1rem;
-    box-sizing: border-box;
+    /* z-index: 1; */
 }
 
 .search-input {

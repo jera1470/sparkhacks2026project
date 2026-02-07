@@ -1,5 +1,46 @@
 .home {
-    padding: 2rem 0;
     width: 100%;
+    flex: 1;
+    overflow: hidden;
     box-sizing: border-box;
+    display: flex;
+}
+
+.header-text{
+    font: bold 28px/1.5 Georgia, "Comic Sans MS", serif;
+    text-align: center;
+    border-bottom: 5px solid green;
+}
+
+.content-columns-header{
+    width: 100%;
+}
+
+.content-columns{
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    border: 5px solid green;
+    top: -50px;
+}
+
+td{
+    border-right: 10px solid black;
+    vertical-align: top;
+    height: 100%;
+    padding: 0;
+}
+
+.tdlast{
+    border-right: none;
+}
+
+.scroll-content {
+    height: 80vh;
+    overflow-y: auto;
+    padding: 0.5rem 1rem;
+}
+
+li{
+    list-style: none;
 }
