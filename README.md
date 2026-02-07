@@ -10,8 +10,8 @@ npm (comes with Node.js)
 
 You can check with:
 node -v
-npm -v
-in you trinal 
+ and npm -v
+in you terminal
 
 Installation & Setup
 Clone the repository
