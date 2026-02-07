@@ -43,10 +43,6 @@ const db = new sqlite3.Database('./database.db', (err) => {
         
         const insert = 'INSERT INTO projects (category, username, title, description, image_url) VALUES (?,?,?,?,?)';
         
-        db.run(insert, ["NetHack Clone", "dev_wizard", "https://placehold.co/600x400"]);
-        db.run(insert, ["AI Chatbot", "tech_guru", "https://placehold.co/600x400"]);
-            
-        
         // Mechanical Engineering Projects
         db.run(insert, [
           "Mechanical Engineering",
@@ -199,38 +195,6 @@ const db = new sqlite3.Database('./database.db', (err) => {
     });
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // API Endpoint to get all projects
 app.get('/api/projects', (req, res) => {

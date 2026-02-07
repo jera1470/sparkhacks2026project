@@ -1,8 +1,12 @@
 import '../css/ProjectPage.css'
-import {Link} from "react-router"
-import nethack from '../assets/nethack.png'
+import {Link, useLocation} from "react-router"
 
 function ProjectPage() {
+  const location = useLocation();
+  const project = location.state?.project;
+
+  if (!project) return <div className="projectpage"><div className="content">No project data found.</div></div>;
+
   return (
     <div className="projectpage">
       <div className="header">
@@ -10,23 +14,18 @@ function ProjectPage() {
           ←
         </button>
         <span className="project-title-text">
-          Project Page
+          {project.title}
         </span>
         <Link to="/">
-          Username
+          {project.username}
         </Link>
       </div>
       <div className="content">
         <div className="photo-showcase">
-          <img src={nethack} alt="1"/>
-          <img src={nethack} alt="2"/>
-          <img src={nethack} alt="3"/>
-          <img src={nethack} alt="4"/>
-          <img src={nethack} alt="5"/>
-          <img src={nethack} alt="6"/>
+          <img src={project.image_url} alt={project.title} />
         </div>
         <div className="project-description">
-          Project Description
+          {project.description}
         </div>
         <div className="project-comments">
           <textarea
