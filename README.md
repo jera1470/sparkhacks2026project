@@ -16,10 +16,7 @@ in you trinal
 Installation & Setup
 Clone the repository
 
-git clone https://github.com/jera1470/sparkhacks2026project.git
-
 Navigate into the frontend directory
-
 
 cd sparkhacks2026project/frontend
 
@@ -29,7 +26,28 @@ npm install
 
 Start the development server
 
-
 npm run dev
 Open the app
 Vite will output a local URL
+
+
+Overview The code structure.
+sparkhacks2026project/
+
+├── frontend/
+│   ├── src/
+│   │   ├── components/      
+│   │   ├── pages/           
+│   │   ├── styles/          
+│   │   ├── App.jsx          
+│   │   ├── main.jsx         
+│   │
+│   ├── index.html        
+│   ├── package.json         
+│   ├── package-lock.json   
+│   ├── vite.config.js       
+│   ├── eslint.config.js     
+│
+├── .gitignore               
+├── LICENSE                 
+├── README.md                
